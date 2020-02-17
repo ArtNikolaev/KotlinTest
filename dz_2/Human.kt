@@ -5,7 +5,7 @@ interface Human {
     var age:Int
     var sex: String
 
-    fun suy()
+    fun say()
     fun eat()
     fun work()
 }
