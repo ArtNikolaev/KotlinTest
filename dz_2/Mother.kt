@@ -11,8 +11,8 @@ open class Mother(name: String, age: Int, sex: String) : Woman(name, age, sex) {
         this.numberOfWorkingDays = numberOfWorkingDays
     }
 
-    override fun suy() {
+    override fun say() {
         println("My name is $name . I am $age years old. My desire is $desire. I work $numberOfWorkingDays days a week")
-        super.suy()
+        super.say()
     }
 }
