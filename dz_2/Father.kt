@@ -11,7 +11,7 @@ open class Father (name: String, age: Int, sex: String) : Man(name, age, sex) {
         this.hasFamily = hasFamily
     }
 
-    override fun suy() {
+    override fun say() {
         println("My name is $name . I am $age years old. My occupation is $occupation. I has $hasFamily family.")
     }
 }
