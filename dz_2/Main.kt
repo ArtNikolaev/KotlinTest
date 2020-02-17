@@ -8,10 +8,10 @@ fun main() {
     val son = Son("Poll", 20, "Man", "Driver", false)
     val daughter = Daughter("Kate", 22, "Woman", "Family", 5)
     
-    father.suy()
-    mother.suy()
-    son.suy()
-    daughter.suy()
+    father.say()
+    mother.say()
+    son.say()
+    daughter.say()
 
     val catalog = ArrayList<Human>()
     catalog.add(father)
