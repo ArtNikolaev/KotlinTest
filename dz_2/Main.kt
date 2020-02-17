@@ -1,11 +1,13 @@
 package dz_2
 
 class Main
+
 fun main() {
     val father = Father("Dima", 50, "Man", "Cook", true)
     val mother = Mother("Rita", 45, "Woman", "fly into space", 3)
     val son = Son("Poll", 20, "Man", "Driver", false)
     val daughter = Daughter("Kate", 22, "Woman", "Family", 5)
+    
     father.suy()
     mother.suy()
     son.suy()
@@ -21,7 +23,6 @@ fun main() {
     }
     catalog.reverse()
         catalog.forEach {
-        print(it.name + " - " + it.age + ", ")
-    }
-
+            print(it.name + " - " + it.age + ", ")
+        }
 }
