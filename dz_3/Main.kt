@@ -15,11 +15,8 @@ class Main {}
         return if(a%2 == 0) a*b else a + b
         }
 
-    fun max (a: Int, b: Int, c: Int) {
-        val max1 = a+b+c
-        val max2 = a*b*c
-        println(max1)
-        println(max2)
+    fun max (a: Int, b: Int, c: Int) Int {
+        return if(a*b*c >= a + b + c) a*b*c else a + b + c
     }
 
     fun studentRating(lore: Int): String {
