@@ -16,7 +16,8 @@ class Main {}
         }
 
     fun max (a: Int, b: Int, c: Int) Int {
-        return if(a*b*c >= a + b + c) a*b*c else a + b + c
+        return if(a*b*c >= a + b + c) a*b*c 
+        else a + b + c
     }
 
     fun studentRating(lore: Int): String {
